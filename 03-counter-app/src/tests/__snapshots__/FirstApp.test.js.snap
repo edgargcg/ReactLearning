@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <FirstApp /> should render <FirstApp /> 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <h1>
+      Hello World Edgar
+    </h1>
+    <h4>
+      I am a subtitle
+    </h4>
+  </div>
+</Fragment>
+`;
+
+exports[`Test on <FirstApp /> should render subtitle in props 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <h1>
+      Hello World Edgar
+    </h1>
+    <h4>
+      I am a subtitle
+    </h4>
+  </div>
+</Fragment>
+`;

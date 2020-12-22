@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <CounterApp /> should render <CounterApp /> 1`] = `
+<Fragment>
+  <div
+    className="container"
+  >
+    <h1>
+      CounterApp
+    </h1>
+    <h2>
+      10
+    </h2>
+    <button
+      className="container__button container__button-substract"
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <button
+      className="container__button container__button-reset"
+      onClick={[Function]}
+    >
+      Reset
+    </button>
+    <button
+      className="container__button container__button-add"
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+</Fragment>
+`;

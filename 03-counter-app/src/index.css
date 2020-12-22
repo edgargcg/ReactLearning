@@ -1,0 +1,29 @@
+html, body{
+    color: white;
+    background-color: #21232A;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+}
+    .container__button{
+        border: none;
+        padding: .3rem;
+        color: white;
+        cursor: pointer;
+        font-size: 1.4rem;
+        padding-left: .8rem;
+        padding-right: .8rem;
+    }
+        .container__button-substract{
+            background-color: red;
+        }
+        .container__button-add{
+            background-color: green;
+        }
+        .container__button-reset{
+            background-color: orange;
+        }
