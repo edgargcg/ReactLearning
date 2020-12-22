@@ -6,7 +6,7 @@ const GiftExpertApp = () => {
     const [categories, setCategories] = useState(['One Punch Man'])
 
     const handleAddCategory = (value) => {
-        if (!categories.find( c => c == value))
+        if (!categories.find( c => c === value))
             setCategories([value, ...categories]);
     }
 
