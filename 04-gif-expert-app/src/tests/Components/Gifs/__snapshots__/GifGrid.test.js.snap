@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <GifGrid /> should render <GifGrid /> 1`] = `
+<div>
+  <h3>
+    Batman
+  </h3>
+  <p>
+    Loading
+  </p>
+  <div
+    className="images"
+  />
+</div>
+`;
+
+exports[`Test on <GifGrid /> should render items on load images with useFetchGifs 1`] = `
+<div>
+  <h3>
+    Batman
+  </h3>
+  <div
+    className="images"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Cualquier cosa"
+      url="https://jola.com"
+    />
+    <GifGridItem
+      id="123"
+      key="123"
+      title="Cualquier cosa"
+      url="https://jola.com"
+    />
+  </div>
+</div>
+`;

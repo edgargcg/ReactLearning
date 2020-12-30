@@ -48,7 +48,7 @@ const CounterApp = ({ value }) => {
     );
 }
 
-CounterApp.prototype = {
+CounterApp.propTypes = {
     value:  PropTypes.number
 }
 

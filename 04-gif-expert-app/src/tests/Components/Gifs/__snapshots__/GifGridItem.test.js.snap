@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on GifGridItem should render a GifGridItem 1`] = `
+<div
+  className="images__item animate__animated animate__bounce"
+>
+  <h5
+    className="image__title"
+  >
+    Batman
+  </h5>
+  <img
+    alt="Batman"
+    className="image__source"
+    src="https://holamundo.jpg"
+  />
+</div>
+`;
