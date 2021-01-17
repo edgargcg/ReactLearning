@@ -26,7 +26,13 @@ export const useFetch = ( url ) => {
         );
 
         fetch( url )
-            .then( resp => resp.json()) 
+            .then( resp => {
+                if (!resp.ok){
+                    throw new Error('Could not fetch data from resource');
+                }
+
+                return resp.json()
+            }) 
             .then( data => {
 
                 if (isMounted){
@@ -38,11 +44,13 @@ export const useFetch = ( url ) => {
                 }
 
             }).catch(error => {
-                setState({
-                    data: null,
-                    error: error,
-                    loading: false,
-                });
+                if (isMounted){
+                    setState({
+                        data: null,
+                        error: error,
+                        loading: false,
+                    });
+                }
             });
 
     }, [url]);

@@ -1,0 +1,17 @@
+body{
+    padding: 50px;
+}
+
+h1{
+    padding: 10px;
+    border-bottom: 2px solid #333;
+}
+
+p{
+    margin: 0;
+    cursor: pointer;
+}
+.complete{
+    text-decoration: line-through;
+    color: green;
+}
